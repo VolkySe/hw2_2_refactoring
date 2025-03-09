@@ -1,7 +1,7 @@
 package hw2_2;
 
-public abstract interface Checkable {
+public interface Checkable {
 
-    abstract void check();
+    void check();
 
 }

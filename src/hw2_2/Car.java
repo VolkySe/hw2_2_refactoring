@@ -1,6 +1,6 @@
 package hw2_2;
 
-public class Car extends WheeledVehicle{
+public class Car extends WheeledVehicle {
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
@@ -8,6 +8,7 @@ public class Car extends WheeledVehicle{
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
+
     @Override
     public void check() {
         super.check();
