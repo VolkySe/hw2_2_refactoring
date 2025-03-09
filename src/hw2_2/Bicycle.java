@@ -7,6 +7,4 @@ public class Bicycle extends WheeledVehicle{
         super(modelName, wheelsCount);
     }
 
-
-
 }
